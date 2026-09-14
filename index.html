@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#6d1028">
+  <title>For Mrs. Nimra ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Great+Vibes&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="petals"></div>
+  <div id="hearts"></div>
+
+  <button class="music-btn" id="musicBtn" aria-label="Toggle music">♪</button>
+  <audio id="music" loop preload="none">
+    <!-- Add your own romantic.mp3 here if you want background music:
+         <source src="romantic.mp3" type="audio/mpeg"> -->
+  </audio>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="glow"></div>
+      <div class="hero-card">
+        <div class="tiny">A little surprise, from my heart</div>
+        <div class="heart-icon">♥</div>
+        <h1>Hey, Mrs. Nimra</h1>
+        <p>I made something special for you...</p>
+        <button class="primary" id="openBtn">Open My Heart <span>♥</span></button>
+        <div class="scroll-hint">scroll gently ↓</div>
+      </div>
+    </section>
+
+    <section class="section flowers reveal">
+      <div class="section-tag">01 · FLOWERS</div>
+      <div class="split">
+        <div class="photo-frame">
+          <img src="romantic-apology.png" alt="Roses and chocolates">
+        </div>
+        <div class="copy">
+          <div class="icon">🌹</div>
+          <h2>These flowers are for you.</h2>
+          <p>Because no matter how beautiful the flowers are, they still can't explain how beautiful you are to me.</p>
+          <p class="soft">Every rose carries a little piece of my heart.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section chocolate reveal">
+      <div class="section-tag">02 · A LITTLE SWEETNESS</div>
+      <div class="gift-card" id="chocolateCard">
+        <div class="gift-box">
+          <div class="lid">FOR YOU ♥</div>
+          <div class="box-body dairy-wrap">
+          <div class="dairy-brand">DAIRY<br><span>MILK</span></div>
+          <div class="dairy-hearts">♥ ♥</div>
+        </div>
+        </div>
+        <div class="copy">
+          <div class="icon">🍫</div>
+          <h2>A little sweetness...</h2>
+          <p>My little Dairy Milk treat for the sweetest person in my life. 🍫❤️</p>
+          <p>I wish I could make every bitter moment between us sweet again.</p>
+          <button class="outline" id="sweetBtn">Open the chocolate box</button>
+          <p class="hidden-message" id="sweetMsg">One for every time I made you smile — and a few extra for every time I made you upset. 🥺❤️</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section apology reveal">
+      <div class="section-tag">03 · MY APOLOGY</div>
+      <div class="letter">
+        <div class="wax">♥</div>
+        <div class="icon">🥺</div>
+        <h2>I'm Sorry, Mrs. Nimra.</h2>
+        <div class="apology-lines">
+          <p>I'm sorry for my behavior.</p>
+          <p>I'm sorry for my rudeness.</p>
+          <p>I'm sorry for the things I said.</p>
+          <p>I'm sorry for the things I did.</p>
+          <p>I'm sorry for every moment where I hurt you.</p>
+          <p>I'm sorry for making you feel bad.</p>
+          <p><strong>I'm sorry for everything.</strong></p>
+        </div>
+        <div class="divider">♥</div>
+        <p class="letter-text">I know saying sorry can't change what happened, but I want you to know that I genuinely regret hurting you.</p>
+      </div>
+    </section>
+
+    <section class="section from-heart reveal">
+      <div class="section-tag">04 · FROM MY HEART</div>
+      <div class="heart-letter">
+        <div class="letter-top">A letter I should have said sooner</div>
+        <h2>Dear Mrs. Nimra,</h2>
+        <p>I don't want to make excuses for my mistakes.</p>
+        <p>I know I wasn't perfect. I know sometimes my words and behavior hurt you. And for that, I'm truly sorry.</p>
+        <p>You mean so much to me, and the last thing I ever want is to be the reason for your sadness.</p>
+        <p>I can't promise that I'll never make a mistake again, but I can promise that I'll try to understand you better, respect you more, listen to you more, and become a better version of myself.</p>
+        <p>I don't want to lose what we have because of a bad moment.</p>
+        <p>I want to fix things. I want to make things better. I want us to smile together again.</p>
+        <div class="signature">Always yours ❤️</div>
+      </div>
+    </section>
+
+    <section class="section chapter reveal">
+      <div class="section-tag">05 · A NEW CHAPTER</div>
+      <div class="book" id="book">
+        <div class="book-cover">
+          <span>OUR STORY</span>
+          <b>♥</b>
+          <small>Chapter?</small>
+        </div>
+        <div class="book-page">
+          <h2>Can We Start Again?</h2>
+          <p>Let's leave the bad moments behind...</p>
+          <p>Let's forgive...</p>
+          <p>Let's understand each other...</p>
+          <p>Let's love each other better...</p>
+          <div class="big-line">LET'S START A NEW CHAPTER ❤️</div>
+          <p class="small">New memories. New smiles. New beginnings. Together.</p>
+        </div>
+      </div>
+      <button class="primary" id="chapterBtn">Open our next chapter ♥</button>
+    </section>
+
+    <section class="section question reveal" id="question">
+      <div class="question-card">
+        <div class="floating-teddy">🧸</div>
+        <div class="icon">💌</div>
+        <h2>Mrs. Nimra,</h2>
+        <h3>Will you forgive me?</h3>
+        <p>I know I can't undo the past, but I want to make the future better.</p>
+        <div class="buttons">
+          <button class="yes" id="yesBtn">YES ❤️</button>
+          <button class="thinking" id="thinkingBtn">Still Thinking... 🥺</button>
+        </div>
+        <div class="tease" id="tease"></div>
+      </div>
+    </section>
+
+    <section class="final reveal" id="final">
+      <div class="final-content">
+        <div class="final-heart">♥</div>
+        <div class="tiny">for the girl who means the world to me</div>
+        <h2>Thank You, Mrs. Nimra ❤️</h2>
+        <p>I'm sorry for everything.</p>
+        <p>Thank you for still being here.</p>
+        <div class="new-chapter">OUR NEW CHAPTER<br><span>STARTS HERE</span> ❤️</div>
+        <p class="promise">New memories. New smiles. A better us.</p>
+        <div class="signature">With all my heart, always.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>Made with ❤️ for Mrs. Nimra</footer>
+  <script src="script.js"></script>
+</body>
+</html>
